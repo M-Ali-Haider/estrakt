@@ -1,0 +1,133 @@
+:root{
+    --entertainment:rgb(255, 138, 0);
+    --gaming: rgb(255, 0, 0);
+    --tech: rgb(0, 71, 255);
+    --trendingAuthor:rgb(255, 243, 139);
+}
+.landing{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 30px;
+    gap: 15px;
+}
+
+/*TRENDING TODAY CSS*/
+
+.trendingContainer{min-width: 400px;flex: 1;display: flex;flex-direction: column;align-items: center;}
+.trendingHeading{font-family: "Anton";font-size: 36.3px;font-weight: 400;line-height: 58.27px;letter-spacing: 0.015em;text-align: center;background: linear-gradient(90deg, #FF0000 28.04%, #FF8A00 47.49%, #FF8A00 55.96%, #0047FF 62.02%, #0047FF 70.68%);-webkit-background-clip: text;-webkit-text-fill-color: transparent;background-clip: text;color: transparent;text-transform: uppercase;}
+.trendingWindow{display: flex;flex-direction: column;padding: 30px 0px;gap: 30px;}
+.trendingUnit{height: 75px;display: flex;align-items: start;gap: 15px;cursor: pointer;}
+.trendingDesign{height: 100%;display: flex;align-items: end;gap: 5px;position: relative;}
+.trendingImageContainer{position: relative;height: 65px;width: 90px;background: rgba(35, 35, 35, 1);}
+.trendingImageContainer img{width: 100%;height: 100%;position: absolute;bottom: 9px;left: 6px;}
+.trendingDetails{max-width: 250px;display: flex;flex-direction: column;gap: 4px;}
+.trendingExcerpt{font-family: "Roboto";font-size: 11px;font-weight: 700;line-height: 17.66px;letter-spacing: 0.04em;text-align: left;display: -webkit-box;-webkit-box-orient: vertical;-webkit-line-clamp: 2;overflow: hidden;text-overflow: ellipsis;}
+.trendingTime{position: absolute;top: calc(100% + 3px);left: 10px;font-family: "Roboto";font-size: 11px;font-weight: 400;line-height: 16.05px;letter-spacing: 0.04em;text-align: center;}
+.trendingCategory{height: 65px;width: 3px;}
+.trendingAuthor{color: var(--trendingAuthor);font-family: Roboto;font-size: 11px;font-weight: 500;line-height: 17.66px;letter-spacing: 0.04em;text-align: left;}
+
+/*END OF TRENDING TODAY CSS*/
+
+.baContainer{
+    flex: 1;
+    min-width: 400px;
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 120px;
+}
+.baDiv{
+    width: 325px;
+    height: 250px;
+}
+.baBackground{
+    aspect-ratio: 295/220;
+    height: 220px;
+    background: rgba(35, 35, 35, 1);
+    position: relative;
+}
+.baAbsolute{
+    position: absolute;
+    bottom: 25px;
+    left: 25px;
+    width: 100%;
+    height: 100%;
+}
+.baAbsolute img{
+    width: 100%;
+    height:100%;
+}
+.baDetails{
+    position: absolute;
+    top: calc(100% - 30%);
+    z-index: 3;
+    left: 15%;
+    width: 105%;
+}
+.baTitle{
+    font-family: "Bebas Neue";
+    font-size: 30px;
+    font-weight: 400;
+}
+.baExcerpt{
+    font-family: Roboto;
+    font-size: 10px;
+    font-weight: 900;
+    line-height: 17.66px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    color: rgba(173, 173, 173, 1);
+    width: 90%;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+@media (min-width:1280px) {
+    .baBackground{
+        aspect-ratio: 471/358;
+        height: 325px;
+    }
+    .baDetails{
+        width: 120%;
+        top: calc(100% - 22%);
+    }
+    .baTitle{
+        font-family: "Bebas Neue";
+        font-size: 42px;
+        font-weight: 400;
+        line-height: 43.69px;
+        letter-spacing: 0.04em;
+        text-align: left;
+    }
+    .baExcerpt{
+        font-size: 10px;
+        -webkit-line-clamp: 4;
+    }
+}
+@media (min-width:1024px) {
+
+    /*TRENDING TODAY CSS*/
+
+    .trendingWindow{padding-top: 15px;}
+    .trendingContainer{align-items: start;}
+    .trendingExcerpt,.trendingAuthor{font-size: 14px;}
+    .trendingUnit{gap: 20px;}
+
+    /*END OF TRENDING TODAY CSS*/
+    
+}
+@media (min-width:768px) {
+    .baContainer{
+        padding-top: 55px;
+        padding-right: 100px;
+    }
+    .trendingUnit:hover .trendingExcerpt {
+        text-decoration: underline;
+    }
+}
+@media (min-width:640px) {
+    
+}

@@ -1,0 +1,145 @@
+.swiper-bruhmius{
+    width: 100%;
+    margin-left: 40px;
+}
+#swiper2{
+    height: 300px;
+    position: relative;
+    overflow: visible;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+#swiper2 .swiper-wrapper{
+    align-items: center;
+}
+#swiper2 .swiper-slide{
+    display: flex;
+    align-items: center;
+}
+.swiper-slide-bruhmius{
+    position: relative;
+    background: #232323;
+    width: 70%;
+    aspect-ratio: 16/9;
+}
+.swiper-slide-thumbnail{
+    position: absolute;
+    left: 20%;
+    bottom: 30%;
+    width: 100%;
+    height: 100%;
+}
+.swiper-slide-thumbnail img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.swiper-slide-details{
+    width: 85%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    z-index: 3;
+    text-decoration: none;
+    color: white;
+}
+.swiper-slide-desc{
+    font-family: "Roboto";
+    font-size: 12px;
+    font-weight: 900;
+    line-height: 19.26px;
+    letter-spacing: 0.04em;
+    text-align: left;
+
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 4;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.swiper-slide-time{
+    font-family: "Roboto";
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    text-align: center;
+}
+.swiper-slide-category{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 4px;
+    height: 100%;
+}
+.swiperReadMore{
+    background-color: #2A2E57;
+    font-size: 24px;
+    font-family: "Anton";
+    width: 200px;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 2px;
+    text-decoration: none;
+    color: white;
+}
+.swiper-button-disabled{
+    display: none!important;
+}
+.swiper-button-next,.swiper-button-prev{
+    display: none;
+}
+@media (min-width:1280px) {
+    
+}
+@media (min-width:1024px) {
+    
+}
+@media (min-width:768px) {
+    .swiper-button-prev{
+        display: flex;
+        left: calc(-35px - 20px)
+    }
+    .swiper-button-next{
+        display: flex;
+        right: calc(100px + 8px);
+        transform: rotate(180deg);
+    }
+    .swiper-bruhmius{
+        margin-left: 100px;
+    }
+    #swiper2{
+        height: 400px;
+    }
+    .swiper-slide-desc{
+        font-family: "Roboto";
+        font-size: 14px;
+        font-weight: 900;
+        line-height: 19.26px;
+        letter-spacing: 0.04em;
+        text-align: left;
+    
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 4;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    .swiper-slide-time{
+        font-family: "Roboto";
+        font-size: 11px;
+        font-weight: 700;
+        line-height: 16.05px;
+        letter-spacing: 0.04em;
+        text-align: center;
+    }
+}
+@media (min-width:640px) {
+    
+}

@@ -1,0 +1,62 @@
+:root{
+    --entertainment:rgb(255, 138, 0);
+    --gaming: rgb(255, 0, 0);
+    --tech: rgb(0, 71, 255);
+    --trendingAuthor:rgb(255, 243, 139);
+}
+.frontpageSwiperHeading{
+    width: 100%;
+    font-family: "Anton";
+    font-size: 32px;
+    font-weight: 400;
+    /* line-height: 80.26px; */
+    letter-spacing: 0.045em;
+    text-align: left;
+    color: black;
+    padding: 0px 20px;
+    text-transform: uppercase;
+}
+.leftDiagnol{width: 0;height: 0;border-right: 100vw solid transparent;}
+.rightDiagnol{
+    width: 0;
+    height: 0;
+    border-left: 100vw solid transparent;
+}
+
+.diagnolGamingBottom{border-bottom: 15px solid var(--gaming);}
+.diagnolTechBottom{border-bottom: 15px solid var(--tech);}
+.diagnolEntertainmentBottom{border-bottom: 15px solid var(--entertainment);}
+.diagnolGamingTop{border-top: 15px solid var(--gaming);}
+.diagnolTechTop{border-top: 15px solid var(--tech);}
+.diagnolEntertainmentTop{border-top: 15px solid var(--entertainment);}
+
+.frontpageCategorySection{width: 100%;overflow: hidden;}
+
+
+.frontpageHeadingSupport{height: 10px;width: 100%;}
+.frontpageHeadingBottom{height: 58px;width: 100%;}
+
+@media (min-width:1280px) {
+    
+}
+@media (min-width:1024px) {
+    .diagnolGamingBottom{border-bottom: 35px solid var(--gaming);}
+    .diagnolTechBottom{border-bottom: 35px solid var(--tech);}
+    .diagnolGamingTop{border-top: 35px solid var(--gaming);}
+    .diagnolTechTop{border-top: 35px solid var(--tech);}
+    .frontpageHeadingSupport{height: 30px;}
+}
+@media (min-width:768px) {
+    .frontpageSwiperHeading{width: 100%;font-family: "Anton";font-size: 50px;font-weight: 400;letter-spacing: 0.045em;text-align: left;color: black;padding: 0px 40px;text-transform: uppercase;}
+    .diagnolGamingBottom{border-bottom: 25px solid var(--gaming);}
+    .diagnolTechBottom{border-bottom: 25px solid var(--tech);}
+    .diagnolGamingTop{border-top: 25px solid var(--gaming);}
+    .diagnolTechTop{border-top: 25px solid var(--tech);}
+    .frontpageHeadingSupport{height: 20px;}
+
+}
+@media (min-width:640px) {
+    .frontpageSwiperHeading{
+        font-size: 36px;
+    }
+}
