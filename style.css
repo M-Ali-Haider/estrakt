@@ -3,6 +3,10 @@
     --gaming: rgb(181, 0, 0);
     --tech: rgb(0, 55, 196);
     --trendingAuthor:rgb(133, 255, 59);
+    --colorGaming: rgb(255, 79, 79);
+    --colorEntertainment: rgb(255, 138, 0);
+    --colorTech: rgb(0, 55, 196);
+    --howLongToBeat: rgb(17, 14, 58);
 }
 *{
     padding: 0;
@@ -20,6 +24,11 @@ main{
 .bgEntertainment{background: var(--entertainment);}
 .bgGaming{background: var(--gaming);}
 .bgTech{background: var(--tech);}
+.bgHowLongToBeat{background: var(--howLongToBeat);}
+.colorGaming{color: var(--colorGaming);}
+.colorEntertainment{color: var(--colorEntertainment);}
+.colorTech{color: var(--colorTech);}
+.bgRed{background: rgb(255,0,1);}
 
 .adsFrontpage{max-width: 1500px;padding: 20px 0px;width: 100%;display: flex;align-items: center;justify-content: center;overflow: hidden;}
 .longad{display: none;}

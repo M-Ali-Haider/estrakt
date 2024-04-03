@@ -1,7 +1,7 @@
 .frontpageSwiperHeading{
     width: 100%;
     font-family: "Anton";
-    font-size: 32px;
+    font-size: 24px;
     font-weight: 400;
     letter-spacing: 0.045em;
     text-align: left;
@@ -25,14 +25,15 @@
 .frontpageHeadingSupport{height: 10px;width: 100%;}
 .frontpageHeadingBottom{height: 58px;width: 100%;}
 
+
 @media (min-width:1280px) {
     
 }
 @media (min-width:1024px) {
-    .diagnolGamingBottom{border-bottom: 50px solid var(--gaming);}
-    .diagnolTechBottom{border-bottom: 50px solid var(--tech);}
-    .diagnolGamingTop{border-top: 50px solid var(--gaming);}
-    .diagnolTechTop{border-top: 50px solid var(--tech);}
+    .diagnolGamingBottom{border-bottom: 55px solid var(--gaming);}
+    .diagnolTechBottom{border-bottom: 55px solid var(--tech);}
+    .diagnolGamingTop{border-top: 55px solid var(--gaming);}
+    .diagnolTechTop{border-top: 55px solid var(--tech);}
     .frontpageHeadingSupport{height: 30px;}
 }
 @media (min-width:768px) {
@@ -43,7 +44,6 @@
     .diagnolGamingTop{border-top: 25px solid var(--gaming);}
     .diagnolTechTop{border-top: 25px solid var(--tech);}
     .frontpageHeadingSupport{height: 20px;}
-
 }
 @media (min-width:640px) {
     .frontpageSwiperHeading{

@@ -1,0 +1,148 @@
+
+.mobileFalse{
+    display: none;
+}
+.pcSection{
+    display: none;
+    flex-wrap: wrap;
+    gap: 100px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+.pcSecLeft{
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+.pcSecRight{
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+}
+.pcHeading{
+    font-family: "Anton";
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 49.76px;
+    letter-spacing: 0.045em;
+    text-align: left;
+    padding: 20px 0px;
+}
+.pcHeadingBruh{
+    font-family: "Anton";
+    font-size: 22.96px;
+    font-weight: 400;
+    line-height: 36.85px;
+    letter-spacing: 0.045em;
+    text-align: center;
+    background: rgba(17, 14, 58, 1);
+    padding: 10px 0px;
+    position: relative;
+}
+.pcHeadingBruhAbsolute{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 5px;
+    left: -5px;
+    z-index: -1;
+}
+.mobileTrue{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 0px;
+}
+.hltbContainer{
+    width: 350px;
+}
+.hltbHeading{
+    font-family: "Anton";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 49.76px;
+    letter-spacing: 0.045em;
+    text-align: left;
+    margin:15px 0px;
+}
+.windowAbsolute{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 15px;
+    left: -15px;
+    z-index: -1;
+}
+.hltbWindow{
+    width: 100%;
+    background: black;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+.hltbUnit{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-bottom: 15px;
+}
+.hltbUnit:last-child{
+    padding: 0;
+}
+.hltbDetails{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.hltbHours{
+    font-family: "Roboto";
+    font-size: 11px;
+    font-weight: 900;
+    line-height: 20.87px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    color: rgba(160, 160, 160, 1);
+}
+.hltbImage{
+    height: 90px;
+    aspect-ratio: 70/101;
+    object-fit: cover;
+    object-position: center center;
+}
+.hltbTitle{
+    font-family: "Roboto";
+    font-size: 14px;
+    font-weight: 900;
+    line-height: 24.08px;
+    letter-spacing: 0.04em;
+    text-align: left;
+
+}
+.releaseDate{
+    font-family: "Roboto";
+    font-weight: 900;
+    letter-spacing: 0.04em;
+    text-align: left;
+    color: white;
+}
+.releasePlatforms{
+    line-height:15px;
+}
+@media (min-width:1280px) {
+    
+}
+@media (min-width:1024px) {
+    .hltbWindow{padding:30px;padding-right: 0;background: transparent;position: relative;}
+    .pcSection{display: flex;}
+    .mobileFalse{display: flex;}
+    .mobileTrue{display: none;}
+    .hltbHeading{font-size: 31px;}
+    .bgHowLongToBeat{background: var(--howLongToBeat);width: 400px;}
+    .pcReleaseWindow{width: 400px;padding-left: 10px;padding-top: 10px;}
+}
+@media (min-width:768px) {
+}
+@media (min-width:640px) {
+    
+}
