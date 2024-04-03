@@ -1,3 +1,9 @@
+:root{
+    --entertainment: rgb(186, 101, 2);
+    --gaming: rgb(181, 0, 0);
+    --tech: rgb(0, 55, 196);
+    --trendingAuthor:rgb(133, 255, 59);
+}
 *{
     padding: 0;
     margin: 0;
@@ -11,13 +17,6 @@ main{
     width: 100%;
 }
 .shade{position: absolute;top: 60%;left: 0;right: 0;bottom: 0;background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.79) 100%);z-index: 2;}
-:root{
-    --entertainment:rgb(255, 138, 0);
-    --gaming: rgb(255, 0, 0);
-    --tech: rgb(0, 71, 255);
-    --trendingAuthor:rgb(255, 243, 139);
-}
-
 .bgEntertainment{background: var(--entertainment);}
 .bgGaming{background: var(--gaming);}
 .bgTech{background: var(--tech);}

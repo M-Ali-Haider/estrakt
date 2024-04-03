@@ -5,7 +5,7 @@ header{position: fixed;z-index: 99;height: 70px;left: 0;top: 0;right: 0;backgrou
 .header-bm{height: 32px;display: flex;flex-direction: column;justify-content: space-between;cursor: pointer;}
 .bm-line{width: 38px;height: 3px;background-color: white;}
 .header-search{flex: 1;}
-.header-search input{padding-left:15px;background: rgba(45, 78, 116, 1);border: none;height: 35px;width: 100%;min-width: 125px;border-radius: 30px;}
+.header-search input{color: white;padding-left:15px;background: rgba(45, 78, 116, 1);border: none;height: 35px;width: 100%;min-width: 125px;border-radius: 30px;}
 .header-logo{flex: 2;display: flex;align-items: center;justify-content: center;height: 100%;}
 .header-logo img{max-width: 100%;min-width: 125px;max-height: 22px;object-fit: contain;}
 .header-bm-container{height: 100%;flex: 1;display: flex;align-items: center;justify-content: end;gap: 30px;}
